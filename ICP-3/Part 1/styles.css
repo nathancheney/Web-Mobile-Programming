@@ -1,0 +1,16 @@
+body {
+    background-color: white;
+    text-align: center;
+  }
+  
+  h1 {
+    background-color: red;
+    color: black;
+    
+  }
+  
+  p {
+    color: black;
+    font-family: verdana;
+    font-size: 40px;
+  }
