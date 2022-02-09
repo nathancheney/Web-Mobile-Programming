@@ -33,8 +33,6 @@ function showUser(user) {
 function noSuchUser(username) {
     //3. set the elements such that a suitable message is displayed
     $("#profile h2").text("User does not exist");
-
-    
 }
 
 $(document).ready(function () {
