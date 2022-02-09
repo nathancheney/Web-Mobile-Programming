@@ -12,7 +12,7 @@ function getGithubInfo(user) {
 function showUser(user) {
     
     //2. set the contents of the h2 and the two div elements in the div '#profile' with the user content
-    $("#profile h2").text(`Github profile information for ${user.login}`);
+    $("#profile h2").text(`Github profile information for ${user.login}:`);
 
     //Display avatar
     $(".avatar").html("<img src='' alt='avatar image' id='avatar' />");
