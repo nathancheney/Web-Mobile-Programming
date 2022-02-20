@@ -1,0 +1,7 @@
+<!--https://www.youtube.com/watch?v=QoI5qaPawbE-->
+<h1>To Do List</h1>
+<form #simpleForm="ngForm" (ngSubmit)="getInput(simpleForm.value)">
+  <input type="text" ngModel name="user_input" placeholder="enter list item">
+  <button>Add to list</button>
+</form>
+<ol id="todolist"></ol>
